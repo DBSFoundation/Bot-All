@@ -23,7 +23,7 @@ export class Solana extends API {
     this.pk = pk;
     this.draw = 0;
     this.lottery = 0;
-    this.connection = new Connection("https://devnet.sonic.game", 'confirmed');
+    this.connection = new Connection("https://testnet.v1.sonic.game", 'confirmed');
   }
 
   async connectWallet() {
